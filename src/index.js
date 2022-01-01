@@ -51,12 +51,12 @@ function renderCountryList(list) {
 function renderCountryInfo(item) {
   const markup = `
             <h1>
-            <img src="${item.flags.svg}"  width="50px"/>
+            <img src="${item.flags.svg}"  width="60px"/>
             ${item.name.official}
             </h1>
-            <p><b>Capital</b>: ${item.capital}</p>
-            <p><b>Population</b>: ${item.population}</p>
-            <p><b>Languages</b>: ${Object.values(item.languages)}</p>
+            <p><span>Capital<span>: ${item.capital}</p>
+            <p><span>Population<span>: ${item.population}</p>
+            <p><span>Languages<span>: ${Object.values(item.languages)}</p>
         `;
   countryList.innerHTML = '';
   countryInfo.innerHTML = markup;

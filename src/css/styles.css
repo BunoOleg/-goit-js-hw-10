@@ -14,9 +14,9 @@ body {
 
 #search-box {
   font: inherit;
-  padding: 8px;
+  padding: 10px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -26,6 +26,6 @@ p {
 
 li {
   list-style: none;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
 }
