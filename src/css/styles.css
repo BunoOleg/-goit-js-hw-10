@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
-  color: #212121;
+  color: rgb(27, 185, 177);
   line-height: 1.5;
 }
 
@@ -17,11 +17,13 @@ body {
   padding: 10px;
   max-width: 320px;
   margin-bottom: 20px;
+  color: rgb(255, 0, 0);
 }
 
 p {
   font-size: 25px;
   font-weight: 400;
+  color: rgb(154, 47, 255);
 }
 
 li {

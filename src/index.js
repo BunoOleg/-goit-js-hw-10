@@ -28,7 +28,7 @@ input.addEventListener(
           Notiflix.Notify.info('Too many matches found. Please enter a more specific name.');
         } else if (list.length > 1) {
           renderCountryList(list);
-        } else if (list.length == 1) {
+        } else if (list.length === 1) {
           renderCountryInfo(list[0]);
         }
       });
